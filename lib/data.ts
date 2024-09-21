@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import bookingsystemImg from "@/public/bookingsytem.png";
 import datascienceImg from "@/public/datascience.png";
 import kanbanboardImg from "@/public/kanbanboard.png";
+import pizzaDronzImg from "@/public/image.png"
 //moved experience before projects
 export const links = [
   {
@@ -34,29 +35,21 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  // {
-  //   title: "Informatics Tutoring Scheme",
-  //   location: "Edinburgh, UK",
-  //   description:
-  //     "Participated in a voluntary Informatics Tutoring Scheme where I supported Scottish Mathematics exam-level high school students through online tutorial sessions to prepare for the final exam.",
-  //   icon: React.createElement(CgWorkAlt),
-  //   date: "November 2021 - May 2022",
-  // },
+  {
+    title: "Informatics Tutoring Scheme",
+    location: "Edinburgh, UK",
+    description:
+      "Participated in a voluntary Informatics Tutoring Scheme where I supported Scottish Mathematics exam-level high school students through online tutorial sessions to prepare for the final exam.",
+    icon: React.createElement(CgWorkAlt),
+    date: "November 2021 - May 2022",
+  },
   {
     title: "Learn Foundations Student Intern",
     location: "Edinburgh, UK",
     description:
-      "I worked as a Learn intern miapping, migrating and carrying out acccessibility checks on a wide range of courses.",
+      "I worked as a Learn intern mapping, migrating and carrying out acccessibility checks on a wide range of courses.",
     icon: React.createElement(CgWorkAlt),
     date: "June 2022 - May 2023",
-  },
-  {
-    title: "Caledonia Math tutor",
-    location: "Edinburgh, UK",
-    description:
-      "Tutoring Higher Mathematics student based on the SQA curriculum and working with an online whiteboard tool called Miro.",
-    icon: React.createElement(CgWorkAlt),
-    date: "August 2022 - May 2023",
   },
   {
     title: "Spring Intern",
@@ -74,6 +67,22 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "June 2023 - September 2023",
   },
+  {
+    title: "Software Engineering Intern",
+    location: "Amazon, London, UK",
+    description:
+      "I developed a high-performance Linear Detail Page for Prime Video, enabling users to discover and engage with content across various stations using React, TypeScript, and Spring Web MVC. I collaborated with UX designers, translating Figma mocks into technical implementations, and optimized development processes through CI/CD pipelines and Docker. I participated in Agile practices, including daily stand-ups, sprint planning, and code reviews, while gaining valuable exposure to Amazon’s leadership principles, applying them to both project execution and teamwork.",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2024 - August 2024",
+  },
+  {
+    title: "Math tutor",
+    location: "Edinburgh, UK",
+    description:
+      "Tutoring Higher and Advanced Higher Mathematics student based on the SQA curriculum and working with an online whiteboard tool called Miro.",
+    icon: React.createElement(CgWorkAlt),
+    date: "August 2022 - Present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -83,6 +92,13 @@ export const projectsData = [
       "Built a customizable Java events app, integrating GraphHopper API, developed and tested using dynamic UML design, JUnit, and system-level testing, ensuring a reliable software solution.",
     tags: ["Java"],
     imageUrl: bookingsystemImg,
+  },
+  {
+    title: "PizzaDronz",
+    description:
+      "Path finding for a hypothetical drone delivery service using Java and REST API for fetching requests from customers.",
+    tags: ["Java"],
+    imageUrl: pizzaDronzImg,
   },
   {
     title: "Kanban Board",

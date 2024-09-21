@@ -20,7 +20,7 @@ export default function About() {
         {/* I am currently a Software Engineering Intern at Vitec, where I'm fortunate to be part of the dynamic head-end team. Currently,  */}
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I am pursuing a Bachelor's of Science in Computer Science at the University of Edinburgh, now well into my third academic year. My toolset? A mix of Python, Java, C, HTML, CSS, JavaScript, SQLite and the dynamic world of React. Alongside, I've also dabbled in Haskell and PDDL, keeping my skills sharp and adaptive.
+      I am pursuing a Bachelor's of Science in Computer Science at the University of Edinburgh, now well into my fourth academic year. My toolset? A mix of Python, Java, C, HTML, CSS, JavaScript, SQLite and the dynamic world of React. Alongside, I've also dabbled in Haskell and PDDL, keeping my skills sharp and adaptive.
       </p>
 
       <p>
