@@ -21,3 +21,7 @@ export default function SubmitBtn() {
     </button>
   );
 }
+
+function useFormStatus(): { pending: any; } {
+  throw new Error("Function not implemented.");
+}
